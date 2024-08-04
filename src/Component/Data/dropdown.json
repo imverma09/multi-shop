@@ -1,0 +1,32 @@
+[
+  { 
+    "id": 1,
+    "category" : "Dresses",
+    "path" : "/products/Dresses"
+  },
+  { 
+    "id": 2,
+    "category" : "Shirt",
+    "path" : "/products/Shirt"
+  },
+  { 
+    "id": 3,
+    "category" : "Electronics",
+    "path" : "/products/Electronics"
+  },
+  { 
+    "id":4,
+    "category" : "Camera",
+    "path" : "/products/Camera"
+  },
+  { 
+    "id": 5,
+    "category" : "Watch",
+    "path" : "/products/Watch"
+  },
+  { 
+    "id": 6,
+    "category" : "Shoes",
+    "path" : "/products/Shoes"
+  }
+]

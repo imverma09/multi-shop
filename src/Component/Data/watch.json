@@ -1,0 +1,107 @@
+[
+    {
+        "id": 31,
+        "category":"Watch",
+        "img": "/images/product-6.jpg",
+        "price": 1200,
+        "color": "blue"
+    },
+    {
+        "id": 32,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 1130,
+        "color": "Grey"
+    },
+    {
+        "id": 33,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 6000,
+        "color": "Brown"
+    },
+    {
+        "id": 34,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 32000,
+        "color": "Navy"
+    },
+    {
+        "id": 35,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 15000,
+        "color": "Maroon"
+    },
+    {
+        "id": 36,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 18000,
+        "color": "Cyan"
+    },
+    {
+        "id": 37,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 15000,
+        "color": "Navy Blue"
+    },
+    {
+        "id": 38,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 18000,
+        "color": "Teal"
+    },
+    {
+        "id": 39,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 40000,
+        "color": "DeepPink"
+    },
+    {
+        "id": 40,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 10000,
+        "color": "PaleViolet"
+    },
+    {
+        "id": 41,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 20000,
+        "color": "Tomato"
+    },
+    {
+        "id": 42,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 19999,
+        "color": "Orange"
+    },
+    {
+        "id": 43,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 15000,
+        "color": "PaleViolet"
+    },
+    {
+        "id": 44,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 1500,
+        "color": "Navy Blue"
+    },
+    {
+        "id": 45,
+        "category": "Watch",
+        "img": "/images/product-6.jpg",
+        "price": 6000,
+        "color": "Brown"
+    }
+]

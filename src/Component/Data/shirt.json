@@ -1,0 +1,143 @@
+[
+    {
+        "id":0,
+        "category":"Shirt",
+        "brands" : "puma",
+        "img": "/images/product-2.jpg",
+        "price" : 200,
+        "color" : "Blue"
+    },
+    {
+        "id":1,
+        "category":"Shirt",
+        "brands" : "puma",
+        "img": "/images/product-2.jpg",
+        "price" : 200,
+        "color" : "Blue"
+    },
+    {
+        "id":2,
+        "category":"Shirt",
+        "brands" : "puma",
+        "img": "/images/product-2.jpg",
+        "price" : 130,
+        "color" : "Grey"
+        
+    },
+    {
+        "id":3,
+        "category":"Shirt",
+        "brands" : "puma",
+        "img": "/images/product-2.jpg",
+        "price" : 300,
+        "color" : "Brown"
+        
+    },
+    {
+        "id":4,
+        "category":"Shirt",
+        "brands" : "redtape",
+        "img": "/images/product-2.jpg",
+        "price" : 320,
+        "color" : "Navy"
+        
+    },
+    {
+        "id":5,
+        "category":"Shirt",
+        "brands" : "redtape",
+        "img": "/images/product-2.jpg",
+        "price" : 150,
+        "color" : "Maroon"
+        
+    },
+    {
+        "id":6,
+        "category":"Shirt",
+        "brands" : "redtape",
+        "img": "/images/product-2.jpg",
+        "price" : 200,
+        "color" : "Cyan"
+        
+    },
+    {
+        "id":7,
+        "category":"Shirt",
+        "brands" : "nike",
+        "img": "/images/product-2.jpg",
+        "price" : 150,
+        "color" : "Navy" 
+        
+    },
+    {
+        "id":8,
+        "category":"Shirt",
+        "brands" : "nike",
+        "img": "/images/product-2.jpg",
+        "price" : 180,
+        "color" : "Teal" 
+        
+    },
+    {
+        "id":9,
+        "category":"Shirt",
+        "brands" : "nike",
+        "img": "/images/product-2.jpg",
+        "price" : 400,
+        "color" : "DeepPink" 
+        
+    },
+    {
+        "id":10,
+        "category":"Shirt",
+        "brands" : "red chief",
+        "img": "/images/product-2.jpg",
+        "price" : 450,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":11,
+        "category":"Shirt",
+        "brands" : "red chief",
+        "img": "/images/product-2.jpg",
+        "price" : 200,
+        "color" : "Tomato" 
+        
+    },
+    {
+        "id":12,
+        "category":"Shirt",
+        "brands" : "red chief",
+        "img": "/images/product-2.jpg",
+        "price" : 199,
+        "color" : "Orange" 
+    },
+    {
+        "id":13,
+        "category":"Shirt",
+        "brands" : "skechers",
+        "img": "/images/product-2.jpg",
+        "price" : 150,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":14,
+        "category":"Shirt",
+        "brands" : "skechers",
+        "img": "/images/product-2.jpg",
+        "price" : 500,
+        "color" : "Navy" 
+        
+    },
+    {
+        "id":15,
+        "category":"Shirt",
+        "brands" : "skechers",
+        "img": "/images/product-2.jpg",
+        "price" : 600,
+        "color" : "Brown"       
+    }
+
+]

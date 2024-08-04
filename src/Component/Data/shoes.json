@@ -1,0 +1,108 @@
+[
+    {
+        "id":16,
+        "category":"shoes",
+        "brands" : "puma",
+        "img": "/images/product-4.jpg",
+        "price" : 1200
+    },
+    {
+        "id":17,
+        "category":"shoes",
+        "brands" : "puma",
+        "img": "/images/product-4.jpg",
+        "price" : 1000
+    },
+    {
+        "id":18,
+        "category":"shoes",
+        "brands" : "puma",
+        "img": "/images/product-4.jpg",
+        "price" : 700
+    },
+    {
+        "id":19,
+        "category":"shoes",
+        "brands" : "redtape",
+        "img": "/images/product-4.jpg",
+        "price" : 700
+    },
+    {
+        "id":20,
+        "category":"shoes",
+        "brands" : "redtape",
+        "img": "/images/product-4.jpg",
+        "price" : 1000
+    },
+    {
+        "id":21,
+        "category":"shoes",
+        "brands" : "redtape",
+        "img": "/images/product-4.jpg",
+        "price" : 1200
+    },
+    {
+        "id":22,
+        "category":"shoes",
+        "brands" : "nike",
+        "img": "/images/product-4.jpg",
+        "price" : 1200
+    },
+    {
+        "id":23,
+        "category":"shoes",
+        "brands" : "nike",
+        "img": "/images/product-4.jpg",
+        "price" : 1000
+    },
+    {
+        "id":24,
+        "category":"shoes",
+        "brands" : "nike",
+        "img": "/images/product-4.jpg",
+        "price" : 700
+    },
+    {
+        "id":25,
+        "category":"shoes",
+        "brands" : "red chief",
+        "img": "/images/product-4.jpg",
+        "price" : 700
+    },
+    {
+        "id":26,
+        "category":"shoes",
+        "brands" : "red chief",
+        "img": "/images/product-4.jpg",
+        "price" : 1000
+    },
+    {
+        "id":27,
+        "category":"shoes",
+        "brands" : "red chief",
+        "img": "/images/product-4.jpg",
+        "price" : 1200
+    },
+    {
+        "id":28,
+        "category":"shoes",
+        "brands" : "skechers",
+        "img": "/images/product-4.jpg",
+        "price" : 700
+    },
+    {
+        "id":29,
+        "category":"shoes",
+        "brands" : "skechers",
+        "img": "/images/product-4.jpg",
+        "price" : 1000
+    },
+    {
+        "id":30,
+        "category":"shoes",
+        "brands" : "skechers",
+        "img": "/images/product-4.jpg",
+        "price" : 1200
+    }
+
+]

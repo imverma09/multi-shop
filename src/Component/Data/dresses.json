@@ -1,0 +1,135 @@
+[
+    {
+        "id":67,
+        "category":"Dresses",
+        "brands" : "puma",
+        "img": "/images/product-7.jpg",
+        "price" : 200,
+        "color" : "Blue"
+    },
+    {
+        "id":68,
+        "category":"Dresses",
+        "brands" : "puma",
+        "img": "/images/product-7.jpg",
+        "price" : 130,
+        "color" : "Grey"
+        
+    },
+    {
+        "id":69,
+        "category":"Dresses",
+        "brands" : "puma",
+        "img": "/images/product-7.jpg",
+        "price" : 300,
+        "color" : "Brown"
+        
+    },
+    {
+        "id":70,
+        "category":"Dresses",
+        "brands" : "redtape",
+        "img": "/images/product-7.jpg",
+        "price" : 320,
+        "color" : "Navy"
+        
+    },
+    {
+        "id":71,
+        "category":"Dresses",
+        "brands" : "redtape",
+        "img": "/images/product-7.jpg",
+        "price" : 150,
+        "color" : "Maroon"
+        
+    },
+    {
+        "id":78,
+        "category":"Dresses",
+        "brands" : "redtape",
+        "img": "/images/product-7.jpg",
+        "price" : 200,
+        "color" : "Cyan"
+        
+    },
+    {
+        "id":79,
+        "category":"Dresses",
+        "brands" : "nike",
+        "img": "/images/product-7.jpg",
+        "price" : 150,
+        "color" : "Navy" 
+        
+    },
+    {
+        "id":80,
+        "category":"Dresses",
+        "brands" : "nike",
+        "img": "/images/product-7.jpg",
+        "price" : 180,
+        "color" : "Teal" 
+        
+    },
+    {
+        "id":81,
+        "category":"Dresses",
+        "brands" : "nike",
+        "img": "/images/product-7.jpg",
+        "price" : 400,
+        "color" : "DeepPink" 
+        
+    },
+    {
+        "id":82,
+        "category":"Dresses",
+        "brands" : "red chief",
+        "img": "/images/product-7.jpg",
+        "price" : 450,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":83,
+        "category":"Dresses",
+        "brands" : "red chief",
+        "img": "/images/product-7.jpg",
+        "price" : 200,
+        "color" : "Tomato" 
+        
+    },
+    {
+        "id":84,
+        "category":"Dresses",
+        "brands" : "red chief",
+        "img": "/images/product-7.jpg",
+        "price" : 199,
+        "color" : "Orange" 
+    },
+    {
+        "id":85,
+        "category":"Dresses",
+        "brands" : "skechers",
+        "img": "/images/product-7.jpg",
+        "price" : 150,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":86,
+        "category":"Dresses",
+        "brands" : "skechers",
+        "img": "/images/product-7.jpg",
+        "price" : 500,
+        "color" : "Navy" 
+        
+    },
+    {
+        "id":87,
+        "category":"Dresses",
+        "brands" : "skechers",
+        "img": "/images/product-7.jpg",
+        "price" : 600,
+        "color" : "Brown"       
+    }
+
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "id":52,
+        "category":"Electronics",
+        "brands" : "puma",
+        "img": "/images/product-3.jpg",
+        "price" : 200,
+        "color" : "blue"
+    },
+    {
+        "id":53,
+        "category":"Electronics",
+        "brands" : "puma",
+        "img": "/images/product-3.jpg",
+        "price" : 130,
+        "color" : "Grey"
+        
+    },
+    {
+        "id":54,
+        "category":"Electronics",
+        "brands" : "puma",
+        "img": "/images/product-3.jpg",
+        "price" : 300,
+        "color" : "Brown"
+        
+    },
+    {
+        "id":55,
+        "category":"Electronics",
+        "brands" : "redtape",
+        "img": "/images/product-3.jpg",
+        "price" : 320,
+        "color" : "Navy"
+        
+    },
+    {
+        "id":56,
+        "category":"Electronics",
+        "brands" : "redtape",
+        "img": "/images/product-3.jpg",
+        "price" : 150,
+        "color" : "Maroon"
+        
+    },
+    {
+        "id":57,
+        "category":"Electronics",
+        "brands" : "redtape",
+        "img": "/images/product-3.jpg",
+        "price" : 200,
+        "color" : "Cyan"
+        
+    },
+    {
+        "id":58,
+        "category":"Electronics",
+        "brands" : "nike",
+        "img": "/images/product-3.jpg",
+        "price" : 150,
+        "color" : "Navy Blue" 
+        
+    },
+    {
+        "id":59,
+        "category":"Electronics",
+        "brands" : "nike",
+        "img": "/images/product-3.jpg",
+        "price" : 180,
+        "color" : "Teal" 
+        
+    },
+    {
+        "id":60,
+        "category":"Electronics",
+        "brands" : "nike",
+        "img": "/images/product-3.jpg",
+        "price" : 400,
+        "color" : "DeepPink" 
+        
+    },
+    {
+        "id":61,
+        "category":"Electronics",
+        "brands" : "red chief",
+        "img": "/images/product-3.jpg",
+        "price" : 450,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":62,
+        "category":"Electronics",
+        "brands" : "red chief",
+        "img": "/images/product-3.jpg",
+        "price" : 200,
+        "color" : "Tomato" 
+        
+    },
+    {
+        "id":63,
+        "category":"Electronics",
+        "brands" : "red chief",
+        "img": "/images/product-3.jpg",
+        "price" : 199,
+        "color" : "Orange" 
+    },
+    {
+        "id":64,
+        "category":"Electronics",
+        "brands" : "skechers",
+        "img": "/images/product-3.jpg",
+        "price" : 150,
+        "color" : "PaleViolet" 
+        
+    },
+    {
+        "id":65,
+        "category":"Electronics",
+        "brands" : "skechers",
+        "img": "/images/product-3.jpg",
+        "price" : 500,
+        "color" : "Navy Blue" 
+        
+    },
+    {
+        "id":66,
+        "category":"Electronics",
+        "brands" : "skechers",
+        "img": "/images/product-3.jpg",
+        "price" : 600,
+        "color" : "Brown"       
+    }
+
+]

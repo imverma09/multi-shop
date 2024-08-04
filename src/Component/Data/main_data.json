@@ -1,0 +1,39 @@
+[
+    {
+        "id":46,
+        "category":"Dresses",
+        "img": "/images/product-7.jpg",
+        "product" : 100
+    },
+    
+    {
+        "id":47,
+        "category":"Shirt",
+        "img": "/images/product-2.jpg",
+        "product" : 200
+    },
+    {
+        "id":48,
+        "category" :"Electronics",
+        "img": "/images/product-3.jpg",
+        "product" : 150
+    },
+    {
+        "id":49,
+        "category" :"Camera",
+        "img": "/images/product-1.jpg",
+        "product" : 80
+    },
+    {
+        "id":50,
+        "category" :"Watch",
+        "img": "/images/product-6.jpg",
+        "product" : 90
+    },
+    {
+        "id":51,
+        "category" :"Shoes",
+        "img": "/images/product-4.jpg",
+        "product" : 250
+    }
+]

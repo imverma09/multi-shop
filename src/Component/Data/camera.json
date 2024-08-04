@@ -1,0 +1,105 @@
+[
+    {
+        "id":88,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 200
+    },
+    {
+        "id":89,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 130
+        
+    },
+    {
+        "id":90,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 300
+        
+    },
+    {
+        "id":91,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 320
+        
+    },
+    {
+        "id":92,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 150
+        
+    },
+    {
+        "id":93,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 200
+        
+    },
+    {
+        "id":94,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 150
+        
+    },
+    {
+        "id":95,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 180
+        
+    },
+    {
+        "id":96,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 400
+        
+    },
+    {
+        "id":97,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 450
+        
+    },
+    {
+        "id":98,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 200
+        
+    },
+    {
+        "id":99,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 199
+    },
+    {
+        "id":100,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 150
+        
+    },
+    {
+        "id":101,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 500
+        
+    },
+    {
+        "id":102,
+        "category":"Camera",
+        "img": "/images/product-1.jpg",
+        "price" : 600
+    }
+
+]
