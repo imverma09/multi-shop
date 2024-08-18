@@ -15,7 +15,7 @@
     background-color: #F5F5F5;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: #6c757d;
     font-size: 20px;
@@ -416,7 +416,8 @@ aside {
     background-color: white;
 }
 
-.product-detail:hover,.cardProduct:hover {
+.product-detail:hover,
+.cardProduct:hover {
     box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.332);
 }
 
@@ -438,8 +439,9 @@ aside {
     display: flex;
     gap: 20px;
 }
+
 .radio-btn input {
-accent-color: black;
+    accent-color: black;
 }
 
 .input-section {
@@ -587,7 +589,7 @@ input::-webkit-inner-spin-button {
 }
 
 .stars {
-   display: flex;
+    display: flex;
     gap: 5px;
 }
 
@@ -654,7 +656,7 @@ input::-webkit-inner-spin-button {
     /* border: 2px solid; */
     background-color: #F5F5F5;
     /* width: 90%; */
-    padding: 20px 4%; 
+    padding: 20px 4%;
     height: max-content;
     /* margin: 12px auto ; */
 }
@@ -664,61 +666,70 @@ input::-webkit-inner-spin-button {
     cursor: grab;
     background-color: white;
     text-align: center;
-    padding-bottom:12px ;
+    padding-bottom: 12px;
 }
-.swiperContainer h1{
+
+.swiperContainer h1 {
     margin: 20px 0px;
 }
-footer{
+
+footer {
     /* border: 2px solid; */
-    padding:60px 40px;
+    padding: 60px 40px;
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     background-color: #343a40;
     color: white;
 }
 
-footer h3{
+footer h3 {
     font-size: x-large;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
-footer p{
-    letter-spacing: 1px;  
-    padding: 15px 0px;   
+
+footer p {
+    letter-spacing: 1px;
+    padding: 15px 0px;
 }
-.footer-div{
+
+.footer-div {
     padding: 20px 30px;
 }
-.footer-logo{
+
+.footer-logo {
     margin: 12px 0px;
     display: flex;
     place-items: center;
     gap: 12px;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
     margin-top: 40px;
 }
-.footer-list li{
+
+.footer-list li {
     list-style: number;
     font-size: large;
 }
-.footer-list li a{
+
+.footer-list li a {
     list-style: number;
     font-size: large;
     color: white;
     text-decoration: none;
 }
-.footer-list li:hover{
-    color: #e3e2e2;   
+
+.footer-list li:hover {
+    color: #e3e2e2;
     cursor: pointer;
     text-decoration: underline;
 }
 
-#footer-input{
+#footer-input {
     padding: 10px;
     width: 100%;
     font-size: larger;
@@ -726,7 +737,8 @@ footer p{
     outline: none;
     border: none;
 }
-#footer-btn{
+
+#footer-btn {
     padding: 10px;
     position: absolute;
     right: 5.4vw;
@@ -735,37 +747,45 @@ footer p{
     cursor: pointer;
     background-color: rgb(255, 211, 55);
 }
-.follow{
+
+.follow {
     margin-top: 20px;
 }
-.socialMedia-logo{
+
+.socialMedia-logo {
     padding: 15px 10px 7px 10px;
     background-color: rgb(255, 211, 55);
     color: #343a40;
     margin-left: 12px;
     cursor: pointer;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     right: 12px;
     bottom: 12px;
 }
- /* ADD TO CARD SECTION CSS */
- .addToCard{
+
+/* ADD TO CARD SECTION CSS */
+.addToCard {
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
- }
- .addToCard img{
+}
+
+.addToCard img {
     margin-top: 12px;
     height: 12%;
     width: 25%;
     /* filter:drop-shadow(1px 1px 12px gray) ; */
- }
- .addToCard p, .addToCard span{
+}
+
+.addToCard p,
+.addToCard span {
     color: #c1c0c0;
-    margin-top:20px ;
- }
- .addToCard button{
+    margin-top: 20px;
+}
+
+.addToCard button {
     border: 2px solid;
     border: none;
     background-color: rgb(255, 211, 55);
@@ -773,81 +793,175 @@ footer p{
     margin: 12px;
     padding: 6px 30px;
     cursor: pointer;
- }
-.cardProduct{
+}
+
+.cardProduct {
     width: 60%;
     display: flex;
-   gap: 20px;
-   padding: 10px;
-   margin-left: 3%;
-   border-radius: 6px;
-   background-color: #F5F5F5;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 3%;
+    border-radius: 6px;
+    background-color: #F5F5F5;
 }
-.cardProduct{
+
+.cardProduct {
     margin: 20px;
 }
-.cardProduct h2{
+
+.cardProduct h2 {
     text-transform: capitalize;
 }
-article{
+
+article {
     padding: 6px;
 }
-.cardSocialMedia{
+
+.cardSocialMedia {
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
-.cards-btn{
+
+.cards-btn {
     padding: 7px;
     letter-spacing: 2px;
     cursor: pointer;
 }
-.size-color{
+
+.size-color {
     margin-left: 10px;
 }
-.order-box{
- text-align: end;
- width: 60%;
- margin: 20px;
- background-color: #F5F5F5;
- padding: 20px;
+
+.order-box {
+    text-align: end;
+    width: 60%;
+    margin: 20px;
+    background-color: #F5F5F5;
+    padding: 20px;
 
 }
-.order-box button{
-  padding: 15px;
-  border: none;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  font-size: larger;
-  background-color: rgb(255, 211, 55);
-  cursor: pointer;
+
+.order-box button {
+    padding: 15px;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: larger;
+    background-color: rgb(255, 211, 55);
+    cursor: pointer;
 }
-.price-details{
-   position: absolute;
-   right: 50px;
-   top: 0px;
-   border-radius: 7px;
-   padding: 10px  ;
-   width: 25%;
-   background-color: #F5F5F5;
+
+.price-details {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 25%;
+    background-color: #F5F5F5;
 }
-.main-card{
+
+.main-card {
     position: relative;
 }
-.save{
+
+.save {
     color: green;
 }
-.price-details p{
+
+.price-details p {
     border: 1px dashed;
     border-left: none;
     border-right: none;
     padding: 5px 0px;
     margin: 7px 0;
 }
-.price{
+
+.price {
     font-size: larger;
 }
-.discount{
+
+.discount {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+}
+
+/* CONTACT SECTION CSS */
+.contact-section {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.inner-contact-section {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.inner-contact-section h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.form-section {
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.form-section form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.form-box {
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-section form input,
+.form-section form textarea {
+    padding: 10px;
+    /* outline: none; */
+    font-size: large;
+    border: 1px solid #000406;
+}
+
+.form-section form button {
+    background-color: rgb(255, 211, 55);
+    width: max-content;
+    padding: 10px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+.address-box {
+    width: 37%;
+    height: 487px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+.address-box div{
+    height: 210px;
+    background-color: white;
+
+}
+.address-box div p{
+    background-color: white;
+    letter-spacing: 3px;
+
+}.mail-info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px ;
+    gap: 20px;
+    align-items: start;
 }

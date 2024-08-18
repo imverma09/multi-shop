@@ -10,6 +10,7 @@ import Card from './Component/Card.jsx';
 import InputContextProvider from './Component/context/InputContextProvider.jsx';
 import WishlistContextProvider from './Component/context/WishlistContext.jsx';
 import AddToCard from './Component/AddToCard.jsx';
+import Contact from './Component/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,11 @@ const router = createBrowserRouter([
   },{
     path : '/AddToCard',
     element : <AddToCard/>
+  },{
+    path : "/contact",
+    element : <Contact/>
   }
+
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

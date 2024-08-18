@@ -25,8 +25,10 @@ function Navbar() {
             </nav>
             <div className="multi-shop navbar">
                 <div>
+                    <Link to={"/"}>
                     <span className='multi'>MULTI</span>
                     <span className='multi shop'>SHOP</span>
+                    </Link>
                 </div>
                 <div className='search-box'>
                     <input type="text" placeholder='Search for products'value={inputValue} onChange={(e)=>{setInputValue(e.target.value)}} />
@@ -43,11 +45,11 @@ function Navbar() {
                     <ChevronDown />
                 </div>
                 <div className='main-link flex'>
-                    <a href="#">Home</a>
+                    <Link to={'/'}>Home</Link>
                     <Link to={'/Shop'}>Shop</Link>
                     <Link to={`/Shop-detail/ShopDetail`}>Shop Detail</Link>
                     <a href="#" onClick={()=>{ hideDrop2?setHideDrop2(false) :setHideDrop2(true)}}>Pages <ChevronDown /></a>
-                    <a href="#">Contact</a>
+                    <Link to={'/contact'}>Contact</Link>
                 </div>
                 <div className='shopCard flex'>
                     <span><Link to={'/Card'}><Heart color="rgb(255,211,55)" strokeWidth={2.25} absoluteStrokeWidth /></Link></span>
@@ -67,7 +69,7 @@ function Navbar() {
                 }
             </div>
             <div className={hideDrop2? "dropdown-2":"hide"}>
-                <a href="#">Shopping Card</a>
+                <Link to={'/AddToCard'}>Shopping Cart</Link>
                 <a href="#">Checkout</a>
             </div>
         </>

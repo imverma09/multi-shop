@@ -21,6 +21,9 @@ function AddToCard() {
    if(sum > 1000)discount = 300
    if(sum > 2000)discount = 500
 
+   function placeOrder(){
+    alert("Your Order has been Successfully Processed")
+   }
   return (
     <>
       <Navbar />
@@ -60,7 +63,7 @@ function AddToCard() {
               })
             }
             <div className="order-box">
-              <button>place order</button>
+              <button onClick={placeOrder}>Place Order</button>
             </div>
             <section className='price-details'>
         <p className='price'>PRICE DETAILS</p>
