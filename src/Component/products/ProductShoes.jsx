@@ -11,10 +11,10 @@ import { inputContext } from '../context/InputContextProvider';
 import Footer from '../Footer';
 
 function ProductShoes() {
-  const { setWishlistArr, setDetailArr ,inputValue ,setBgColorArr ,bgColorArr } = useContext(inputContext)
+  const { setWishlistArr, setDetailArr, inputValue, setBgColorArr, bgColorArr } = useContext(inputContext)
   const params = useParams()
   let data = []
-  
+
   if (params.id == 'Shoes') {
     data = shoesData.filter(d => d.category.toLowerCase() == params.id.toLowerCase())
   } else if (params.id == 'Shirt') {
@@ -31,17 +31,17 @@ function ProductShoes() {
 
   function arrowRight(e) {
     if (e.target.id) {
-      let parr = data.filter((p ,i ) => i == e.target.id)
+      let parr = data.filter((p, i) => i == e.target.id)
       setDetailArr(parr)
     }
   }
   // const [bgColorArr, setBgColorArr] = useState(new Array(data.length).fill('white'))
 
-   const favorite = (e) => {
+  const favorite = (e) => {
     let id = e.target.id
-      setBgColorArr((prev) => prev.map((val, i) => id == i ? val == 'red' ? 'white' : 'red' : val))
+    setBgColorArr((prev) => prev.map((val, i) => id == i ? val == 'red' ? 'white' : 'red' : val))
     let new_arr = []
-    
+
     if (bgColorArr[id] == 'white') {
       let val = null
       let parr = data.filter((p, i) => i == id)
@@ -75,39 +75,39 @@ function ProductShoes() {
             data.map((p, i) => {
               return (
                 <div key={p.id} className='cards '>
-                <img src={p.img} alt="" />
-                <h2>{p.brands}</h2>
-                <h4>{p.price}</h4>
-                {p.color && <p>{p.color}</p>}
-                <div className='flex'>
-                  <span className="material-symbols-outlined card-btn " name='abc' id={i} onClick={favorite} style={{ backgroundColor: bgColorArr[i] }} >favorite</span>
-                  <Link to={`/Shop-Detail/${p.brands}`}><span className="material-symbols-outlined card-btn" id={i} onClick={arrowRight}>arrow_forward</span></Link>
+                  <img src={p.img} alt="" />
+                  <h2>{p.brands}</h2>
+                  <h4>{p.price}</h4>
+                  {p.color && <p>{p.color}</p>}
+                  <div className='flex'>
+                    <span className="material-symbols-outlined card-btn " name='abc' id={i} onClick={favorite} style={{ backgroundColor: bgColorArr[i] }} >favorite</span>
+                    <Link to={`/Shop-Detail/${p.brands}`}><span className="material-symbols-outlined card-btn" id={i} onClick={arrowRight}>arrow_forward</span></Link>
+                  </div>
                 </div>
-              </div>
-            )
-          })
-        }
-          </>:<>
-          {
-             searchArr.map((p, i) => {
-              return (
-                <div key={p.id} className='cards '>
-                <img src={p.img} alt="" />
-                <h2>{p.brands}</h2>
-                <h4>{p.price}</h4>
-                {p.color && <p>{p.color}</p>}
-                <div className='flex'>
-                  <span className="material-symbols-outlined card-btn " name='abc' id={i} onClick={favorite} style={{ backgroundColor: bgColorArr[i] }} >favorite</span>
-                  <Link to={`/Shop-Detail/${p.brands}`}><span className="material-symbols-outlined card-btn" id={i} onClick={arrowRight}>arrow_forward</span></Link>
-                </div>
-              </div>
-            )
-          })
+              )
+            })
           }
-          </> 
+          </> : <>
+            {
+              searchArr.map((p, i) => {
+                return (
+                  <div key={p.id} className='cards '>
+                    <img src={p.img} alt="" />
+                    <h2>{p.brands}</h2>
+                    <h4>{p.price}</h4>
+                    {p.color && <p>{p.color}</p>}
+                    <div className='flex'>
+                      <span className="material-symbols-outlined card-btn " name='abc' id={i} onClick={favorite} style={{ backgroundColor: bgColorArr[i] }} >favorite</span>
+                      <Link to={`/Shop-Detail/${p.brands}`}><span className="material-symbols-outlined card-btn" id={i} onClick={arrowRight}>arrow_forward</span></Link>
+                    </div>
+                  </div>
+                )
+              })
+            }
+          </>
         }
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

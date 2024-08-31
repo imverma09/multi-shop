@@ -1,4 +1,3 @@
-import { ImageOff } from 'lucide-react';
 import React, { useRef, useState } from 'react';
 function Carousel() {
   const [idx ,setIdx] =useState(0);

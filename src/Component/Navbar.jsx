@@ -13,7 +13,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar nav-link'>
                     <a href="#">About</a>
-                    <a href="#">Contact</a>
+                    <Link to={'/contact'}>Contact</Link>
                     <a href="#">Help</a>
                     <a href="#">FAQs</a>
                 </div>

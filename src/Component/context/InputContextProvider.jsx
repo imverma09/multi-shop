@@ -6,8 +6,8 @@ const InputContextProvider = ({ children }) => {
     const [wishlistArr, setWishlistArr] = useState([])
     const [colorArray, setColorArray] = useState([])
     const [priceArray, setPriceArray] = useState([])
-    const [detailArr , setDetailArr] = useState([ {
-        "id":30,
+    const [detailArr , setDetailArr] = useState([{
+        "id" : 30,
         "category":"shoes",
         "brands" : "skechers",
         "img": "/images/product-4.jpg",
