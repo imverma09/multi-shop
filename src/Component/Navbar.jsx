@@ -19,8 +19,8 @@ function Navbar() {
                 </div>
                 <span className='navbar account' onClick={() => { hide ? setHide(false) : setHide(true) }}>My Account<ChevronDown strokeWidth={1.25} /></span>
                 <div className={hide ? 'login-account navbar' : 'hide'} >
-                    <a href="">Sing in</a>
-                    <a href="">Sing up</a>
+                    <Link to={'/login'}>Sing in</Link>
+                    <Link to={'/sign'}>Sing up</Link>
                 </div>
             </nav>
             <div className="multi-shop navbar">

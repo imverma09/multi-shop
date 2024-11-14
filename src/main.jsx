@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import "./index.css"
 import './Component/Css/navbar.css';
 import Category from './Component/Category.jsx';
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
@@ -11,6 +12,9 @@ import InputContextProvider from './Component/context/InputContextProvider.jsx';
 import WishlistContextProvider from './Component/context/WishlistContext.jsx';
 import AddToCard from './Component/AddToCard.jsx';
 import Contact from './Component/Contact.jsx';
+import Login from './Component/Login.jsx';
+import Singup from './Component/Signup.jsx';
+import EmailVerification from './Component/EmailVerification.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,9 +46,16 @@ const router = createBrowserRouter([
   },{
     path : "/contact",
     element : <Contact/>
+  },{
+    path : "/login",
+    element : <Login/>  
+  },{
+    path : "/sign",
+    element : <Singup/>  
+  },{
+    path : "/verification",
+    element : <EmailVerification/>
   }
-
-
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
