@@ -33,25 +33,27 @@ Mult Shop is a dynamic and responsive e-commerce platform designed to deliver a 
 ## Installation
 
 1. Clone the repository:
-    bash
-   git clone https://github.com/imverma09/mult-shop.git
-   
+   ```bash
+   git clone https://github.com/username/mult-shop.git
+   ```
 2. Navigate to the project directory:
-   
+   ```bash
    cd mult-shop
-   
+   ```
 3. Install dependencies:
+   ```bash
    npm install
+   ```
 4. Start the development server:
-   
+   ```bash
    npm start
-  
+   ```
 
 ---
 
 ## Folder Structure
 
-
+```
 mult-shop/
 ├── public/              # Static assets
 ├── src/
@@ -61,7 +63,7 @@ mult-shop/
 │   ├── styles/          # Global and modular styles
 │   └── App.js           # Main application file
 └── package.json         # Project metadata and dependencies
-
+```
 
 ---
 
@@ -79,17 +81,17 @@ We welcome contributions to improve the platform! To contribute:
 
 1. Fork the repository.
 2. Create a feature branch:
-
+   ```bash
    git checkout -b feature-name
-  
+   ```
 3. Commit your changes:
-   
+   ```bash
    git commit -m "Add feature-name"
- 
+   ```
 4. Push to the branch:
-   
+   ```bash
    git push origin feature-name
-  
+   ```
 5. Create a pull request.
 
 ---
@@ -101,5 +103,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For questions or feedback, please contact us at [work.harshdeepdev@example.com](mailto:work.harshdeepdev@example.com).
-
 
